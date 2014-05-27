@@ -1,0 +1,50 @@
+body {
+	background-color: #FFFFFF;
+}
+
+form.auth {
+  margin: 0;
+}
+
+.glad {
+	background-image:url('../images/ana.png');
+    background-repeat: no-repeat;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+}
+
+.wrap {
+	width:982px;
+	margin:auto;
+}
+
+.sidebar-nav p {
+
+    padding:2em;
+}
+.fui-plus {
+display: inline-block;
+margin: 0 0 32px 35px;
+width: 24px;
+font-size: 24px;
+
+}
+.fui-plus:before {
+  content: "\e009";
+}
+
+.crox{
+margin-bottom: 20px;
+    
+}

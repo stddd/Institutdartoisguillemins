@@ -1,0 +1,156 @@
+.year {
+color: #888888;
+font-size: 30px;
+line-height: 30px;
+}
+.year.active {
+color: #D90000;
+}
+.relative {
+position: relative;
+}
+.periods table th:hover, .periods table td:hover {
+background-color: inherit;
+}
+.periods {
+width:550px;
+float:left;
+vertical-align:top;
+}
+.eventshow{
+float:left;
+vertical-align:top;
+}
+.month {
+margin-top: 11px;
+margin-left: 35px;
+}
+.months ul {
+list-style: none;
+margin: 0px;
+padding-top: 5px;
+padding-right: 0px;
+padding-bottom: 0px;
+padding-left: 0px;
+}
+.months ul li {
+display: inline;
+}
+.months ul li a {
+float: left;
+margin: -1px;
+padding: 0px 15px 0px 0px;
+color: #888888;
+text-decoration: none;
+font-size: 15px;
+font-weight: bold;
+text-transform: uppercase;
+display: block;
+}
+.months ul li a:hover, .months ul li a.active {
+color: #D90000;
+text-decoration: none;
+outline: 0;
+}
+.month table {
+}
+table {
+max-width: 100%;
+border-collapse: collapse;
+border-spacing: 0;
+font-size: 0.9em;
+color: #333;
+}
+.day {
+font-size: 15px;
+color: #8C8C8C;
+text-align: right;
+text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+background-color: #F6F6F6;
+border: 1px solid #E0E0E0;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-khtml-border-radius: 5px;
+border-radius: 5px 5px 5px 5px;
+cursor: pointer;
+*margin-left: .3em;
+font-weight: bold;
+text-decoration: none;
+padding-top: 30px;
+padding-right: 2px;
+padding-bottom: 2px;
+line-height: 15px;
+width: 50px;
+margin: 1px;
+}
+a.day:hover, .day_nonevent:hover {
+text-decoration: none;
+background-color: #F5F5F5;
+}
+
+.month table th {
+font-weight: normal;
+color: #A8A8A8;
+font-size: 11px;
+}
+table td .events{
+position: absolute;
+cursor: pointer;
+width: 44px;
+height: 0px;
+display: block;
+padding: 0px;
+margin-top: -10px;
+margin-right: 0px;
+margin-bottom: 0px;
+margin-left: 5px;
+z-index: 2;
+}
+table td .events li{
+width: 5px;
+height: 5px; /*+border-radius:10px;*/
+cursor: pointer;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-khtml-border-radius: 5px;
+border-radius: 5px 5px 5px 5px;
+overflow: hidden;
+text-indent: -3000;
+display: block;
+padding: 0px;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 2px;
+margin-left: 2px;
+float: left;
+background-color: red;
+}
+
+table td:hover .events{
+  position:absolute;
+  left:500px;
+  top:66px; 
+  width:442px;
+  list-style:none;
+  margin:0px;
+  padding:11px 0px 0px;
+  }
+table td:hover .events li{ 
+ height:40px;  
+ line-height:40px; 
+ font-weight:bold; 
+ border-bottom:1px solid #D6D6D6;
+ padding-left:40px; 
+ text-indent:0; 
+ background:none;
+ width:500px;
+ }
+table td:hover .events li:first-child{
+  border-top:1px solid #D6D6D6;
+  }
+  table td .daytitle {
+  display:none;}
+table td:hover .daytitle{  position:absolute;  left:582px;  top:21px;  width:442px;  list-style:none;  margin:0px 0px 0px 16px;  padding:0px;  color:Grey;  font-size:32px;  display:block;  font-weight:bold;}
+table td.today {
+border: 1px solid #D90000;
+}
